@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-neutral-950;
+}
+
+.combined-shadow {
+  box-shadow:
+    inset 10px -10px 20px rgba(0, 0, 0, 0.5),
+    10px 10px 10px rgba(0, 0, 0, 0.5),
+    -10px 10px 10px rgba(0, 0, 0, 0.5);
+}
